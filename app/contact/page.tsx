@@ -60,21 +60,22 @@ export default function ContactPage() {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      content: "+92 3129910000",
+      content: "+92 312 991 0000",
       gradient: "from-[#00206d] to-[#0b2ea2]",
+      href: "tel:+923129910000",
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
       content: "info@castpro.org",
       gradient: "from-[#0b2ea2] to-[#3e6cff]",
+      href: "mailto:info@castpro.org",
     },
     {
-icon: <Clock className="w-6 h-6" />,
-title: "Business Hours",
-content: "Mon–Sat: 8:00–18:00\nSun: Closed",
-gradient: "from-[#d61f1f] to-[#a01515]",
-
+      icon: <Clock className="w-6 h-6" />,
+      title: "Business Hours",
+      content: "Mon–Sat: 8:00–18:00\nSun: Closed",
+      gradient: "from-[#d61f1f] to-[#a01515]",
     },
   ]
 
@@ -96,10 +97,6 @@ gradient: "from-[#d61f1f] to-[#a01515]",
         />
         <div className="absolute inset-0 bg-[rgba(10,12,16,.82)]" />
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          {/* <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 text-sm font-medium mb-6">
-            <Mail className="w-4 h-4 mr-2" />
-            Get In Touch
-          </div> */}
           <h1 className="text-white font-extrabold leading-tight text-[3.2rem] sm:text-[3.8rem] md:text-[5rem]">
             Contact{" "}
             <span className="bg-gradient-to-r from-[#d61f1f] to-[#00206d] bg-clip-text text-transparent">
