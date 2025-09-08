@@ -60,20 +60,21 @@ export default function ContactPage() {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      content: "+92 XXX XXXXXXX",
+      content: "+92 3129910000",
       gradient: "from-[#00206d] to-[#0b2ea2]",
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      content: "info@castproengineering.com",
+      content: "info@castpro.org",
       gradient: "from-[#0b2ea2] to-[#3e6cff]",
     },
     {
-      icon: <Clock className="w-6 h-6" />,
-      title: "Business Hours",
-      content: "Mon–Fri: 8:00–18:00\nSat: 9:00–14:00\nSun: Closed",
-      gradient: "from-[#d61f1f] to-[#a01515]",
+icon: <Clock className="w-6 h-6" />,
+title: "Business Hours",
+content: "Mon–Sat: 8:00–18:00\nSun: Closed",
+gradient: "from-[#d61f1f] to-[#a01515]",
+
     },
   ]
 
