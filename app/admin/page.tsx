@@ -35,7 +35,6 @@ export default function AdminLoginPage() {
     setError("")
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1000)) // simulate delay
 
       const response = await fetch("/api/admin/login", {
         method: "POST",
