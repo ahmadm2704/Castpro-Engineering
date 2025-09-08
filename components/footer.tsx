@@ -28,16 +28,23 @@ export default function Footer() {
 
             <div className="mt-6 space-y-2 text-sm">
               <div className="flex items-center gap-3">
-                <MapPin className="w-4 h-4 text-[var(--brand-400)]" /> Rawalpindi, Pakistan
+                <MapPin className="w-4 h-4 text-[var(--brand-400)]" /> Rawalpindi, Pakistan — Near GT Road,
+                Industrial Area
               </div>
               <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-[var(--brand-400)]" /> +92 XXX XXXXXXX
+                <Phone className="w-4 h-4 text-[var(--brand-400)]" />
+                <a href="tel:+923129910000" className="hover:text-white">
+                  +92 312 9910000
+                </a>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="w-4 h-4 text-[var(--brand-400)]" /> info@castproengineering.com
+                <Mail className="w-4 h-4 text-[var(--brand-400)]" />
+                <a href="mailto:info@castpro.org" className="hover:text-white">
+                  info@castpro.org
+                </a>
               </div>
               <div className="flex items-center gap-3">
-                <Clock className="w-4 h-4 text-[var(--brand-400)]" /> Mon–Fri: 8AM–6PM
+                <Clock className="w-4 h-4 text-[var(--brand-400)]" /> Mon–Sat: 8AM–6PM · Sun: Closed
               </div>
             </div>
           </div>
@@ -55,7 +62,9 @@ export default function Footer() {
                 "Rapid Prototyping",
               ].map((label) => (
                 <li key={label}>
-                  <Link href="/services" className="hover:text-white">{label}</Link>
+                  <Link href="/services" className="hover:text-white">
+                    {label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -65,12 +74,36 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-2 text-slate-300 text-sm">
-              <li><Link href="/about" className="hover:text-white">About Us</Link></li>
-              <li><Link href="/services" className="hover:text-white">Our Services</Link></li>
-              <li><Link href="/career" className="hover:text-white">Careers</Link></li>
-              <li><Link href="/submit-project" className="hover:text-white">Submit Project</Link></li>
-              <li><Link href="/contact" className="hover:text-white">Contact Us</Link></li>
-              <li><Link href="/admin" className="hover:text-white">Admin Portal</Link></li>
+              <li>
+                <Link href="/about" className="hover:text-white">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="hover:text-white">
+                  Our Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/career" className="hover:text-white">
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link href="/submit-project" className="hover:text-white">
+                  Submit Project
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:text-white">
+                  Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/admin" className="hover:text-white">
+                  Admin Portal
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
