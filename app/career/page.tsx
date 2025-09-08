@@ -197,10 +197,10 @@ export default function CareerPage() {
         />
         <div className="absolute inset-0 bg-[rgba(10,12,16,.82)]" />
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 text-sm font-medium mb-6">
+          {/* <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 text-sm font-medium mb-6">
             <Briefcase className="w-4 h-4 mr-2" />
             Career Opportunities
-          </div>
+          </div> */}
           <h1 className="text-white font-extrabold leading-tight text-[3.2rem] sm:text-[3.8rem] md:text-[5rem] mb-4">
             Join Our{" "}
             <span className="bg-gradient-to-r from-[#d61f1f] to-[#00206d] bg-clip-text text-transparent">
