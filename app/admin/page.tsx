@@ -175,10 +175,7 @@ export default function AdminLoginPage() {
                 <Shield className="w-4 h-4" />
                 Secure admin access for Castpro Engineering
               </p>
-              <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
-                <p className="text-xs text-blue-800 font-medium">Demo Credentials:</p>
-                <p className="text-xs text-blue-700">Username: admin | Password: castpro2024</p>
-              </div>
+
             </div>
           </CardContent>
         </Card>
